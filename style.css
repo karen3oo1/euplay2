@@ -1,0 +1,47 @@
+body {
+color:darkred;
+background:rgb(214, 71, 71);
+margin-bottom: 100px;
+}
+
+header  {
+border-bottom: solid 2px darkred;
+padding: 50px; 
+font-size: 50px;
+color: darkred;
+}
+
+section {
+background:lightsalmon;
+padding-bottom: 90px;
+padding-top: 90px;
+display: flex;
+
+}
+
+
+img {
+
+height: 200px;
+}
+
+.Categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Categoria-videos img {
+opacity: 0.5;
+height: 200px;
+}
+
+.Categoria-videos img:hover {
+opacity: 1.0;
+border: 5px solid white;
+}
